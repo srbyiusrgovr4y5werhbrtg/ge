@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GoldEye Anti-Cheat</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          dropShadow: {
+            glow: "0 25px 40px rgba(255, 200, 50, 0.25)",
+          },
+        },
+      },
+    }
+  </script>
+</head>
+
+<body class="min-h-screen bg-gradient-to-br from-amber-900 via-black to-yellow-900 text-white">
+  <section class="min-h-screen flex flex-col items-center justify-start text-center relative overflow-hidden px-6 pt-24 pb-24">
+    <div class="absolute top-0 left-0 w-72 h-72 bg-yellow-500 rounded-full blur-3xl opacity-25 animate-pulse"></div>
+    <div class="absolute bottom-0 right-0 w-96 h-96 bg-amber-500 rounded-full blur-3xl opacity-25 animate-pulse"></div>
+
+    <img
+      src="logo.webp"
+      alt="GoldEye Logo"
+      class="w-28 h-28 mb-6 drop-shadow-2xl select-none"
+    />
+
+    <h1 class="text-6xl md:text-7xl font-extrabold tracking-wide relative inline-block">
+      GoldEye
+      <span class="absolute -top-4 -right-14 bg-gradient-to-r from-yellow-300 to-orange-400 text-black text-lg font-extrabold px-3 py-1 rounded-xl shadow-lg transform rotate-6">
+        Anti-Cheat
+      </span>
+    </h1>
+
+    <p class="mt-6 text-lg md:text-xl text-gray-300 max-w-xl mx-auto">
+      Real-time detection, smart heuristics, and reliable enforcement. Built to keep experiences fair without false positives.
+    </p>
+
+    <div class="mt-10 flex gap-4 flex-wrap justify-center">
+      <a
+        href="mailto:contact@goldeye.dev"
+        class="group relative inline-flex items-center gap-2 rounded-2xl px-6 py-3 text-lg font-semibold text-black
+               bg-gradient-to-r from-yellow-300 via-amber-300 to-orange-300
+               shadow-[0_10px_30px_-10px_rgba(255,200,50,0.55)]
+               transition-transform duration-200 hover:-translate-y-0.5 active:translate-y-0">
+        <span class="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity
+                     bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.55),transparent_45%)]"></span>
+        <span class="relative">Contact</span>
+      </a>
+    </div>
+
+    <p class="mt-12 mb-32 text-gray-400 text-sm tracking-wide uppercase">
+      Accurate. Lightweight. Trusted.
+    </p>
+
+    <div class="relative max-w-6xl mx-auto w-full mt-20">
+      <h2 class="text-4xl md:text-5xl font-extrabold text-center">
+        Games We Protect
+      </h2>
+      <p class="mt-4 text-center text-gray-400 max-w-2xl mx-auto">
+        GoldEye actively protects high-traffic experiences using real-time detection and enforcement systems.
+      </p>
+
+      <div class="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="group flex flex-col h-full rounded-3xl overflow-hidden bg-white/8 border border-white/15 backdrop-blur-md
+            shadow-[0_20px_40px_-20px_rgba(0,0,0,0.8)]
+            transition-all duration-300 hover:-translate-y-1 hover:border-yellow-300/40">
+          <div class="relative flex-1">
+            <img
+              src="rf24.webp"
+              alt="Real Futbol 24"
+              class="w-full h-48 object-cover"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+          </div>
+
+          <div class="p-5 text-left">
+            <div class="flex items-end justify-between gap-4">
+              <div>
+                <h3 class="text-xl font-bold">Real Futbol 24</h3>
+                <p class="mt-1 text-sm text-gray-400">200,000,000+ visits</p>
+              </div>
+
+              <a
+                href="https://www.roblox.com/games/14004668761"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="shrink-0 inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-semibold
+                      text-black bg-gradient-to-r from-yellow-300 to-amber-300
+                      shadow-[0_6px_18px_-6px_rgba(255,200,50,0.6)]
+                      transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_25px_-8px_rgba(255,200,50,0.7)]">
+                View
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="group flex flex-col h-full rounded-3xl overflow-hidden bg-white/8 border border-white/15 backdrop-blur-md
+            shadow-[0_20px_40px_-20px_rgba(0,0,0,0.8)]
+            transition-all duration-300 hover:-translate-y-1 hover:border-yellow-300/40">
+          <div class="relative flex-1">
+            <img
+              src="rffl.webp"
+              alt="Real Futbol Fan Leagues"
+              class="w-full h-48 object-cover"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+          </div>
+
+          <div class="p-5 text-left">
+            <div class="flex items-end justify-between gap-4">
+              <div>
+                <h3 class="text-xl font-bold">Real Futbol Fan Leagues</h3>
+                <p class="mt-1 text-sm text-gray-400">3,000,000+ visits</p>
+              </div>
+
+              <a
+                href="https://www.roblox.com/games/70539431141054"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="shrink-0 inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-semibold
+                      text-black bg-gradient-to-r from-yellow-300 to-amber-300
+                      shadow-[0_6px_18px_-6px_rgba(255,200,50,0.6)]
+                      transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_25px_-8px_rgba(255,200,50,0.7)]">
+                View
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="group flex flex-col h-full rounded-3xl overflow-hidden bg-white/8 border border-white/15 backdrop-blur-md
+            shadow-[0_20px_40px_-20px_rgba(0,0,0,0.8)]
+            transition-all duration-300 hover:-translate-y-1 hover:border-yellow-300/40">
+          <div class="relative flex-1">
+            <img
+              src="rfl.webp"
+              alt="Real Futbol League"
+              class="w-full h-48 object-cover"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+          </div>
+
+          <div class="p-5 text-left">
+            <div class="flex items-end justify-between gap-4">
+              <div>
+                <h3 class="text-xl font-bold">Real Futbol League</h3>
+                <p class="mt-1 text-sm text-gray-400">1,000,000+ visits</p>
+              </div>
+
+              <a
+                href="https://www.roblox.com/games/91966141209269"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="shrink-0 inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-semibold
+                      text-black bg-gradient-to-r from-yellow-300 to-amber-300
+                      shadow-[0_6px_18px_-6px_rgba(255,200,50,0.6)]
+                      transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_25px_-8px_rgba(255,200,50,0.7)]">
+                View
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-white/10 bg-black/30 backdrop-blur-md">
+    <div class="max-w-6xl mx-auto px-6 py-5 flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between text-sm text-gray-300">
+      <div>
+        © <span id="year"></span> GoldEye. All rights reserved.
+      </div>
+      <div class="flex flex-wrap gap-x-5 gap-y-2">
+        <a class="hover:text-white transition" href="mailto:contact@goldeye.dev">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
